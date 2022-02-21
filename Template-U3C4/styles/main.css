@@ -1,0 +1,42 @@
+#container {
+  display: flex;
+
+  color: black;
+  /* border: 1px solid red; */
+}
+#sidebar {
+  flex: 1;
+
+  border: 1px solid black;
+
+  padding: 5px;
+}
+#main {
+  flex: 9;
+  border: 1px solid black;
+  padding: 50px;
+}
+#news {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px auto;
+  text-align: center;
+  width: 80%;
+  border: 1px solid black;
+}
+#news > div {
+  width: 30%;
+}
+img {
+  height: 200px;
+  width: 200px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+h2 {
+  color: rgb(168, 58, 58);
+}
